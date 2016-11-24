@@ -1,7 +1,6 @@
 FROM zoltanthedestroyer/minecraft-docker:java8
 MAINTAINER Justin Barone https://github.com/cloudish
 
-ENV SERVER_URL https://zoltancraft.blob.core.windows.net/minecraft-servers/PO2.1.8-Server.zip
 ENV LAUNCHWRAPPER net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
 
 RUN curl -SL $SERVER_URL -o /tmp/server.zip && \
