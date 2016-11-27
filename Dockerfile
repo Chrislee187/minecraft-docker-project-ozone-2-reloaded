@@ -1,5 +1,5 @@
 FROM zoltanthedestroyer/minecraft-docker:java8
-MAINTAINER Justin Barone https://github.com/cloudish
+MAINTAINER Justin Barone https://github.com/cloudish https://hub.docker.com/u/zoltanthedestroyer/
 
 ENV LAUNCHWRAPPER net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
 
