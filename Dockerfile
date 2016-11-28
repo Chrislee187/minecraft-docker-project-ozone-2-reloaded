@@ -1,6 +1,7 @@
 FROM zoltanthedestroyer/minecraft-docker:java8
 MAINTAINER Justin Barone https://github.com/cloudish https://hub.docker.com/u/zoltanthedestroyer/
 
+ENV SERVER_URL https://zoltansdata.blob.core.windows.net/minecraft-servers/ProjectOzone2Server-Kappa_2.1.9.zip
 ENV LAUNCHWRAPPER net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar
 
 RUN curl -SL $SERVER_URL -o /tmp/server.zip && \
