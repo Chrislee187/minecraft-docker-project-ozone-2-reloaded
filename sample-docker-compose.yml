@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+   
+  minecraft-project-ozone-2-reloaded:
+    environment:
+      MINECRAFT_EULA: 'true'
+      DEFAULT_OP: [your op name here]
+      MOTD: "Zoltan's Nifty Kappa Server"
+      LEVEL_TYPE: "SKYLANDS"
+    tty: true
+    image: zoltanthedestroyer/minecraft-docker-project-ozone-2-reloaded
+    volumes:
+    - config:/opt/minecraft
+    stdin_open: true
